@@ -1,0 +1,24 @@
+services:
+  riptide:
+    build: .
+    restart: unless-stopped
+    init: true
+    env_file: .env
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      RIPTIDE_DATA_DIR: /data
+      RIPTIDE_DEMO_MODE: "false"
+      RIPTIDE_PREVIEW_COOKIES: "false"
+      RIPTIDE_SECURE_COOKIES: "true"
+    ports:
+      - "127.0.0.1:3000:3000"
+    volumes:
+      - riptide-data:/data
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+    stop_grace_period: 20s
+volumes:
+  riptide-data:

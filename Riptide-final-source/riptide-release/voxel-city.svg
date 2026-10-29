@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" shape-rendering="crispEdges" role="img" aria-label="Isometric pixel art of a town next to a river">
+ <defs><pattern id="grid" width="40" height="20" patternUnits="userSpaceOnUse"><path d="M0 10 20 0 40 10 20 20Z" fill="none" stroke="#19507b" stroke-width="1"/></pattern></defs>
+ <!-- raised map base -->
+ <path d="M45 158 333 14 677 186 389 330Z" fill="#13345b" stroke="#081523" stroke-width="6"/>
+ <path d="M45 158 389 330 389 365 45 193Z" fill="#0d2238" stroke="#081523" stroke-width="6"/><path d="M389 330 677 186 677 221 389 365Z" fill="#071522" stroke="#081523" stroke-width="6"/>
+ <path d="M50 158 333 18 672 186 389 326Z" fill="url(#grid)"/>
+ <!-- river, inset into the tile -->
+ <path d="M122 119 200 80 541 251 463 290Z" fill="#197ec5" stroke="#091b2d" stroke-width="4"/><path d="M151 117 175 105 189 112 165 124ZM264 170 288 158 302 165 278 177ZM378 226 402 214 416 221 392 233ZM454 232 477 220 489 226 466 238Z" fill="#83dfff"/>
+ <!-- roads -->
+ <path d="M263 49 287 37 629 208 605 220Z" fill="#405671"/><path d="M84 180 107 191 396 47 373 36Z" fill="#405671"/><path d="M255 88 263 84 279 92 271 96ZM305 113 313 109 329 117 321 121ZM355 138 363 134 379 142 371 146ZM405 163 413 159 429 167 421 171ZM455 188 463 184 479 192 471 196Z" fill="#f9d884"/>
+ <!-- bridge -->
+ <path d="M172 158 245 194 273 180 200 144Z" fill="#c3d6e3" stroke="#0a1b2b" stroke-width="4"/><path d="M172 158 245 194 245 205 172 169Z" fill="#637d94" stroke="#0a1b2b" stroke-width="3"/><path d="M245 194 273 180 273 191 245 205Z" fill="#39556b" stroke="#0a1b2b" stroke-width="3"/>
+ <!-- building 1 -->
+ <path d="M349 104 397 80 442 102 394 126Z" fill="#dcefff" stroke="#091b2c" stroke-width="4"/><path d="M349 104 394 126 394 180 349 158Z" fill="#4fa0e3" stroke="#091b2c" stroke-width="4"/><path d="M394 126 442 102 442 156 394 180Z" fill="#245487" stroke="#091b2c" stroke-width="4"/><path d="M358 121 368 126 368 136 358 131ZM376 130 386 135 386 145 376 140ZM358 141 368 146 368 156 358 151ZM376 150 386 155 386 165 376 160Z" fill="#b8eaff"/><path d="M405 134 415 129 415 140 405 145ZM423 125 433 120 433 131 423 136ZM405 154 415 149 415 160 405 165ZM423 145 433 140 433 151 423 156Z" fill="#8edcff"/>
+ <!-- building 2 -->
+ <path d="M476 175 519 154 555 172 512 193Z" fill="#abdafa" stroke="#091b2c" stroke-width="4"/><path d="M476 175 512 193 512 232 476 214Z" fill="#4194d5" stroke="#091b2c" stroke-width="4"/><path d="M512 193 555 172 555 211 512 232Z" fill="#1a497a" stroke="#091b2c" stroke-width="4"/><path d="M484 188 494 193 494 203 484 198ZM500 196 507 199 507 209 500 206Z" fill="#d6f6ff"/>
+ <!-- hospital -->
+ <path d="M249 205 296 182 339 203 292 226Z" fill="#d6eafd" stroke="#091b2c" stroke-width="4"/><path d="M249 205 292 226 292 263 249 242Z" fill="#599ddd" stroke="#091b2c" stroke-width="4"/><path d="M292 226 339 203 339 240 292 263Z" fill="#245588" stroke="#091b2c" stroke-width="4"/><path d="M284 199 291 196 291 201 301 196 306 199 296 204 296 209 289 212 289 207 279 212 274 209 284 204Z" fill="#e7565c"/>
+ <!-- trees/cubes -->
+ <g stroke="#091b2c" stroke-width="3"><path d="M119 202 130 196 141 202 130 208Z" fill="#78dbd8"/><path d="M119 202 130 208 130 226 119 220Z" fill="#2f8da4"/><path d="M130 208 141 202 141 220 130 226Z" fill="#205e79"/><path d="M570 163 581 157 592 163 581 169Z" fill="#78dbd8"/><path d="M570 163 581 169 581 187 570 181Z" fill="#2f8da4"/><path d="M581 169 592 163 592 181 581 187Z" fill="#205e79"/></g>
+ <!-- water particles -->
+ <path d="M240 143h8v4h-8zm190 84h10v4h-10zm-129-55h12v4h-12z" fill="#d7fbff"/>
+</svg>
